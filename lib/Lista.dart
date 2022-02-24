@@ -30,7 +30,7 @@ class _ListaState extends State<Lista> {
           itemBuilder:(context, indice){
        return Card(
          child:  ListTile(
-           leading: Icon(Icons.coffee, size: 30, color: Colors.blue, ),
+           leading: Icon(Icons.coffee, size: 30, color: Colors.lightBlueAccent, ),
            onTap: (){
              showDialog(context: context, builder: (context){
                return AlertDialog(
